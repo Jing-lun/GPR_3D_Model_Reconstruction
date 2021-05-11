@@ -31,9 +31,9 @@ You can install them by:
 ```
 conda install -y pytorch=1.5.0 torchvision=0.6.0 cudatoolkit=10.2 -c pytorch
 pip install \
-open3d==0.9.0.0 \
-scipy == 1.5.4\
-h5py == 3.1.0\
+	open3d==0.9.0.0 \
+	scipy == 1.5.4\
+	h5py == 3.1.0\
 ```
 
 # Dataset
