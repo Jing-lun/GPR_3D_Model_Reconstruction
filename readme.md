@@ -5,21 +5,22 @@ This is an end-to-end model that efficient learns the 3D shape of subsurface obj
 We also create a concrete slab dataset for DNN-based GPR inspection and reconstruction purpose. Each concrete slab not only contains cylinder objects, but also include the sphere and cubic objects, with different size, location and orientation.
 
 If you're interested at our work, please cite the following papers:
+```
+@inproceedings{feng2021subsurface,
+title={Subsurface Pipes Detection Using DNN-based Back Projection on GPR Data},
+author={Feng, Jinglun and Yang, Liang and Wang, Haiyan and Tian, Yingli and Xiao, Jizhong},
+booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+pages={266--275},
+year={2021}
+}
 
-        @inproceedings{feng2021subsurface,
-        title={Subsurface Pipes Detection Using DNN-based Back Projection on GPR Data},
-        author={Feng, Jinglun and Yang, Liang and Wang, Haiyan and Tian, Yingli and Xiao, Jizhong},
-        booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
-        pages={266--275},
-        year={2021}
-        }
-
-        @article{feng2020gpr,
-        title={GPR-based Model Reconstruction System for Underground Utilities Using GPRNet},
-        author={Feng, Jinglun and Yang, Liang and Hoxha, Ejup and Sotnikov, Stanislav and Sanakov, Diar and Xiao, Jizhong},
-        journal={arXiv preprint arXiv:2011.02635},
-        year={2020}
-        }
+@article{feng2020gpr,
+title={GPR-based Model Reconstruction System for Underground Utilities Using GPRNet},
+author={Feng, Jinglun and Yang, Liang and Hoxha, Ejup and Sotnikov, Stanislav and Sanakov, Diar and Xiao, Jizhong},
+journal={arXiv preprint arXiv:2011.02635},
+year={2020}
+}
+```
 
 Overview
 ----
@@ -28,11 +29,11 @@ Ground Penetration Radar (GPR) is a well-known non-destructively testing (NDT) t
 # Installation
 You can install them by:
 ```
-        conda install -y pytorch=1.5.0 torchvision=0.6.0 cudatoolkit=10.2 -c pytorch
-        pip install \
-        open3d==0.9.0.0 \
-        scipy == 1.5.4\
-        h5py == 3.1.0\
+conda install -y pytorch=1.5.0 torchvision=0.6.0 cudatoolkit=10.2 -c pytorch
+pip install \
+open3d==0.9.0.0 \
+scipy == 1.5.4\
+h5py == 3.1.0\
 ```
 
 # Dataset
@@ -41,7 +42,7 @@ Our [dataset](https://www.dropbox.com/sh/q5sfb7ciys3v2mr/AACHhj_FOLiNBRm5XvorIpd
 # Test
 You can have a result of test run using
 ```
-        python test.py --model 'check_points/CP_epoch101.pth' --input' 'PATH TO INPUT' --gt 'PATH TO GROUND TRUTH' --file 'PATH TO TEST FILE'
+python test.py --model 'check_points/CP_epoch101.pth' --input' 'PATH TO INPUT' --gt 'PATH TO GROUND TRUTH' --file 'PATH TO TEST FILE'
 ```
 
 # Train
