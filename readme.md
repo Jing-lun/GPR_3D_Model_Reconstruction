@@ -27,19 +27,22 @@ Ground Penetration Radar (GPR) is a well-known non-destructively testing (NDT) t
 
 # Installation
 You can install them by:
+```
         conda install -y pytorch=1.5.0 torchvision=0.6.0 cudatoolkit=10.2 -c pytorch
         pip install \
         open3d==0.9.0.0 \
         scipy == 1.5.4\
         h5py == 3.1.0\
-
+```
 
 # Dataset
 Our [dataset](https://www.dropbox.com/sh/q5sfb7ciys3v2mr/AACHhj_FOLiNBRm5XvorIpd2a?dl=0) contains 627 different slab models cretated by gprMax. The surrounding dielectric of each slab model is set as `half_space` while the wavefront is `gaussiandotnorm`.
 
 # Test
 You can have a result of test run using
-        `python test.py --model 'check_points/CP_epoch101.pth' --input' 'PATH TO INPUT' --gt 'PATH TO GROUND TRUTH' --file 'PATH TO TEST FILE'`
+```
+        python test.py --model 'check_points/CP_epoch101.pth' --input' 'PATH TO INPUT' --gt 'PATH TO GROUND TRUTH' --file 'PATH TO TEST FILE'
+```
 
 # Train
 In order to train our dataset, you need to download our dataset shown above.
