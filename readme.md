@@ -1,4 +1,4 @@
-3D Subsurface Object Reconstruction Model basedon Ground Penetration Radar
+3D Subsurface Object Reconstruction Model based on Ground Penetration Radar
 ====
 This is an end-to-end model that efficient learns the 3D shape of subsurface objects from GPR 2D data. The reconstructed map is represented in occupancy volumetric format.
 
