@@ -6,19 +6,23 @@ We also create a concrete slab dataset for DNN-based GPR inspection and reconstr
 
 If you're interested at our work, please cite the following papers:
 ```
-@inproceedings{feng2021subsurface,
-title={Subsurface Pipes Detection Using DNN-based Back Projection on GPR Data},
-author={Feng, Jinglun and Yang, Liang and Wang, Haiyan and Tian, Yingli and Xiao, Jizhong},
-booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
-pages={266--275},
-year={2021}
+@article{feng2022improving,
+  title={Improving 3D Metric GPR Imaging Using Automated Data Collection and Learning-based Processing},
+  author={Feng, Jinglun and Yang, Liang and Hoxha, Ejup and Xiao, Jizhong},
+  journal={IEEE Sensors Journal},
+  year={2022},
+  publisher={IEEE}
 }
 
-@article{feng2020gpr,
-title={GPR-based Model Reconstruction System for Underground Utilities Using GPRNet},
-author={Feng, Jinglun and Yang, Liang and Hoxha, Ejup and Sotnikov, Stanislav and Sanakov, Diar and Xiao, Jizhong},
-journal={arXiv preprint arXiv:2011.02635},
-year={2020}
+@article{feng2022robotic,
+  title={Robotic Inspection of Underground Utilities for Construction Survey Using a Ground Penetrating Radar},
+  author={Feng, Jinglun and Yang, Liang and Hoxha, Ejup and Jiang, Biao and Xiao, Jizhong},
+  journal={Journal of Computing in Civil Engineering},
+  volume={37},
+  number={1},
+  pages={04022049},
+  year={2022},
+  publisher={American Society of Civil Engineers}
 }
 ```
 
